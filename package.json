@@ -6,8 +6,8 @@
   "homepage": "https://taimoortherightsw.github.io/test-react-app",
   "scripts": {
     "dev": "vite",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "build": "vite build",
+    "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
   },
